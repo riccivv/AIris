@@ -52,10 +52,8 @@ credentials.json
 openai_key.txt
 
 # Generated Files
-location_data.json
-conversation_history.json
-llm_cache.json
-ocr_debug.jpg
+data/
+map_cache/
 __pycache__/
 
 # Recordings
@@ -84,3 +82,7 @@ Desktop.ini
 
 # VS Code
 .vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+*.streamlit/
